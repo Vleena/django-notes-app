@@ -53,7 +53,7 @@ pipeline {
         }
         stage("Deploy"){
              steps {
-               echo "Deploying the application"
+               echo "Deploying the application-1"
               // sh "docker run -d -p 8000:8000 django-app:latest"
               // sh "docker compose up -d"
               script{
